@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="/res/pwp/css/pwp-dark-green.css" rel="stylesheet" media="screen" type="text/css" />
+</head>
+<body>
+	<audio preload="none">
+		
+			<source src="http://worthandlung.de/audio/001.mp3" type="audio/mpeg"</source>
+		
+			<source src="http://worthandlung.de/audio/001.opus" type="audio/opus"</source>
+		
+			<source src="http://worthandlung.de/audio/001.m4a" type="audio/x-m4a"</source>
+		
+	</audio>
+
+	<script src="/res/pwp/js/vendor/jquery.min.js"></script>
+	<script src="/res/pwp/js/podlove-web-player.min.js"></script>
+	<script type="text/javascript">
+		$('audio').podlovewebplayer({
+			show: {
+				title: 'Code4Kids - Der Elternpodcast',
+				url: 'http://wordhandlung.de/podcast/'
+			},
+			title: '001 Title',
+			subtitle: '<p>It is just the beginning.</p>',
+			poster: 'http://www.worthandlung.de/bilder/code4kids.jpg',
+			permalink: '001',
+			chapters: [  {"start":"00:22:46.190", "title": "Chapter 1"},  {"start":"01:21:33.010", "title": "Chapter 2"},  {"start":"01:17:00.130", "title": "Chapter 3"},  ]
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:psc="http://podlove.org/simple-chapters" version="2.0">
+  <channel>
+    <language>de-de</language>
+    <ttl>1440</ttl>
+    <title>Code4Kids - Der Elternpodcast (opus Feed)</title>
+    <author>P3nny</author>
+    <logo>http://www.worthandlung.de/bilder/code4kids.jpg</logo>
+    <itunes:image href="http://www.worthandlung.de/bilder/code4kids.jpg"/>
+    <lastBuildDate>Thu, 29 Dec 2016 17:55:14 +0000</lastBuildDate>
+    <description>Ein Podcast für Eltern, die ihre Kinder für Tech und Programmieren begeistern wollen. Wir sammeln Informationen über Tutorials, Veranstaltungen und Neuigkeiten aus der Szene rund um Hardware-Hacking, Coding, Roboterbau für Jungen und Mädchen ab der Grundschule.</description>
+    <link>http://wordhandlung.de/podcast/</link>
+    <generator>Mikrowelle OS</generator>
+    <itunes:explicit>clean</itunes:explicit>
+    <itunes:category text="Technology &amp; Education"/>
+    <itunes:author>P3nny</itunes:author>
+    <item>
+      <atom:link href="" rel="payment" type="text/html"/>
+      <guid isPermaLink="false">http://wordhandlung.de/podcast/001.html.2013-06-09T22:55:48.500Z</guid>
+      <enclosure length="244760" type="audio/opus" url="http://worthandlung.de/audio/001.opus"/>
+      <description><![CDATA[<p>Summary</p>]]></description>
+      <title>001 Title</title>
+      <psc:chapters version="1.2">
+        <psc:chapter href="http://example.com/1/" start="00:22:46.190" title="Chapter 1"/>
+        <psc:chapter href="http://example.com/2/" start="01:21:33.010" title="Chapter 2"/>
+        <psc:chapter href="http://example.com/3/" start="01:17:00.130" title="Chapter 3"/>
+      </psc:chapters>
+      <itunes:image href="http://www.worthandlung.de/bilder/code4kids.jpg"/>
+      <pubDate>Sun, 09 Jun 2013 22:55:48 +0000</pubDate>
+      <link>http://wordhandlung.de/podcast/001.html</link>
+    </item>
+  </channel>
+</rss>
