@@ -6,3 +6,6 @@
 
   # Default build command.
   command = "hugo && cp -r archive public/archive"
+
+[build.environment]
+  HUGO_VERSION = "0.53"
