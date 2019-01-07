@@ -1,0 +1,5 @@
+# Redirects from what the browser requests to what we serve
+/jupyter/*           /archive/jupyter/:splat
+/linux/*             /archive/linux/:splat
+/node/*              /archive/node/:splat
+/pandas/*            /archive/pandas/:splat
