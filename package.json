@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p $PORT"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,11 @@
   },
   "homepage": "https://github.com/P3nny/worthandlung#readme",
   "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
     "next": "^9.1.7",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-markdown": "^4.3.1",
+    "swr": "^0.1.16"
   }
 }
