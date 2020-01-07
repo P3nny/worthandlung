@@ -1,1 +1,0 @@
-{"ast":null,"code":"import quotes from '../../quotes.json';\nexport default ((req, res) => {\n  const quote = quotes[Math.floor(Math.random() * quotes.length)];\n  res.status(200).json(quote);\n});","map":null,"metadata":{},"sourceType":"module"}
