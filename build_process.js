@@ -7,9 +7,15 @@ const directories = readdirSync(__dirname, { withFileTypes: true })
 
 let text = `<!DOCTYPE html>
 <html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<h1>Worthandlung</h1>
-<p>Code snippets</p>\n`
+<h1>Worthandlung - Patricia Ennenbach</h1>
+<p>Code-loving journalist. This site is my repository of tutorials and code snippets.</p>\n`
 
 for (const folder of directories) {
     text+=`<h3>${folder}</h3>\n<ul>`;
