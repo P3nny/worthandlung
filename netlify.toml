@@ -1,8 +1,0 @@
-[build]
-
-  publish = "."
-
-  # Default build command.
-  command = "node build_process.js"
-
-  environment = { NODE_VERSION = "12" }
