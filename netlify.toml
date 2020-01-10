@@ -1,24 +1,31 @@
 [build]
-  publish = "public"
-  command = "hugo -s worthandlung"
-
-[build.environment]
-  HUGO_THEME = "repo"
-  HUGO_THEMESDIR = "/opt/build"
-  HUGO_VERSION = "0.55.5"
+publish = "public"
+command = "hugo --gc --minify"
 
 [context.production.environment]
-  HUGO_BASEURL = "https://worthandlung.de/"
+HUGO_VERSION = "0.62.2"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+[context.split1]
+command = "hugo --gc --minify --enableGitInfo"
+
+[context.split1.environment]
+HUGO_VERSION = "0.62.2"
+HUGO_ENV = "production"
 
 [context.deploy-preview]
-  command = "hugo -s worthandlung -b $DEPLOY_PRIME_URL"
+command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
-  HUGO_ENABLEGITINFO = "true"
+HUGO_VERSION = "0.62.2"
 
-[context.branch-deplpy]
-  command = "hugo -s worthandlung -b $DEPLOY_PRIME_URL"
+[context.branch-deploy]
+command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
-  HUGO_ENABLEGITINFO = "true"
+HUGO_VERSION = "0.62.2"
+
+[context.next.environment]
+HUGO_ENABLEGITINFO = "true"
 
