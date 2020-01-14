@@ -1,7 +1,7 @@
 ---
 title: "Convert E32 N32 to Lat Long"
 date: 2020-01-10T23:44:16+01:00
-draft: true
+draft: false
 ---
 
 ```python
